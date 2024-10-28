@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="25" failures="4" errors="0" time="2.086">
+  <testsuite name="TextService" errors="0" failures="0" skipped="0" timestamp="2024-10-28T06:52:14" time="0.219" tests="9">
+    <testcase classname="TextService calculateSimilarity should return 100 for identical texts" name="TextService calculateSimilarity should return 100 for identical texts" time="0.003">
+    </testcase>
+    <testcase classname="TextService calculateSimilarity should return low similarity for different texts" name="TextService calculateSimilarity should return low similarity for different texts" time="0.001">
+    </testcase>
+    <testcase classname="TextService validateText should throw error for empty text" name="TextService validateText should throw error for empty text" time="0.006">
+    </testcase>
+    <testcase classname="TextService validateText should throw error for text below minimum length" name="TextService validateText should throw error for text below minimum length" time="0.001">
+    </testcase>
+    <testcase classname="TextService validateText should return true for valid text" name="TextService validateText should return true for valid text" time="0">
+    </testcase>
+    <testcase classname="TextService TextService edge cases should handle texts with special characters" name="TextService TextService edge cases should handle texts with special characters" time="0.001">
+    </testcase>
+    <testcase classname="TextService TextService edge cases should handle texts with different case" name="TextService TextService edge cases should handle texts with different case" time="0.001">
+    </testcase>
+    <testcase classname="TextService TextService edge cases should handle texts with extra whitespace" name="TextService TextService edge cases should handle texts with extra whitespace" time="0.001">
+    </testcase>
+    <testcase classname="TextService TextService edge cases should handle non-ASCII characters" name="TextService TextService edge cases should handle non-ASCII characters" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="PlagiarismController" errors="0" failures="0" skipped="0" timestamp="2024-10-28T06:52:14" time="0.256" tests="4">
+    <testcase classname="PlagiarismController detectPlagiarism should detect plagiarism successfully" name="PlagiarismController detectPlagiarism should detect plagiarism successfully" time="0.004">
+    </testcase>
+    <testcase classname="PlagiarismController detectPlagiarism should handle validation errors" name="PlagiarismController detectPlagiarism should handle validation errors" time="0.008">
+    </testcase>
+    <testcase classname="PlagiarismController setSimilarityThreshold should set valid threshold" name="PlagiarismController setSimilarityThreshold should set valid threshold" time="0.001">
+    </testcase>
+    <testcase classname="PlagiarismController setSimilarityThreshold should reject invalid threshold" name="PlagiarismController setSimilarityThreshold should reject invalid threshold" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="SearchService" errors="0" failures="0" skipped="0" timestamp="2024-10-28T06:52:14" time="0.082" tests="2">
+    <testcase classname="SearchService searchWeb should return search results" name="SearchService searchWeb should return search results" time="0.001">
+    </testcase>
+    <testcase classname="SearchService searchWeb should handle API errors" name="SearchService searchWeb should handle API errors" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="Performance Tests" errors="0" failures="1" skipped="0" timestamp="2024-10-28T06:52:14" time="0.33" tests="2">
+    <testcase classname="Performance Tests should handle concurrent requests" name="Performance Tests should handle concurrent requests" time="0.016">
+      <failure>Error: Text must be at least 50 characters long
+    at TextService.validateText (/Users/mac/WebstormProjects/plagiarism-detector/src/services/textService.js:67:19)
+    at PlagiarismController.validateText [as detectPlagiarism] (/Users/mac/WebstormProjects/plagiarism-detector/src/controller/plagiarismController.js:17:30)
+    at detectPlagiarism (/Users/mac/WebstormProjects/plagiarism-detector/tests/performance/loadTest.test.js:7:24)
+    at Array.map (&lt;anonymous&gt;)
+    at Object.map (/Users/mac/WebstormProjects/plagiarism-detector/tests/performance/loadTest.test.js:6:43)
+    at Promise.then.completed (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-circus/build/run.js:121:9)
+    at run (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Performance Tests should process large text within timeout" name="Performance Tests should process large text within timeout" time="0.057">
+    </testcase>
+  </testsuite>
+  <testsuite name="Plagiarism API Integration Tests" errors="0" failures="3" skipped="0" timestamp="2024-10-28T06:52:14" time="1.437" tests="8">
+    <testcase classname="Plagiarism API Integration Tests POST /api/plagiarism/check should check text for plagiarism" name="Plagiarism API Integration Tests POST /api/plagiarism/check should check text for plagiarism" time="0.028">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 200
+Received: 500
+    at Object.toBe (/Users/mac/WebstormProjects/plagiarism-detector/tests/integration/api.test.js:13:37)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+    </testcase>
+    <testcase classname="Plagiarism API Integration Tests POST /api/plagiarism/check should handle empty text" name="Plagiarism API Integration Tests POST /api/plagiarism/check should handle empty text" time="0.003">
+    </testcase>
+    <testcase classname="Plagiarism API Integration Tests POST /api/plagiarism/check should handle missing text" name="Plagiarism API Integration Tests POST /api/plagiarism/check should handle missing text" time="0.002">
+    </testcase>
+    <testcase classname="Plagiarism API Integration Tests POST /api/plagiarism/check should handle large texts" name="Plagiarism API Integration Tests POST /api/plagiarism/check should handle large texts" time="0.967">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 200
+Received: 500
+    at Object.toBe (/Users/mac/WebstormProjects/plagiarism-detector/tests/integration/api.test.js:44:37)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+    </testcase>
+    <testcase classname="Plagiarism API Integration Tests POST /api/plagiarism/threshold should update similarity threshold" name="Plagiarism API Integration Tests POST /api/plagiarism/threshold should update similarity threshold" time="0.003">
+    </testcase>
+    <testcase classname="Plagiarism API Integration Tests POST /api/plagiarism/threshold should reject invalid threshold values" name="Plagiarism API Integration Tests POST /api/plagiarism/threshold should reject invalid threshold values" time="0.002">
+    </testcase>
+    <testcase classname="Plagiarism API Integration Tests POST /api/plagiarism/bulk-check should handle multiple texts" name="Plagiarism API Integration Tests POST /api/plagiarism/bulk-check should handle multiple texts" time="0.003">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 200
+Received: 500
+    at Object.toBe (/Users/mac/WebstormProjects/plagiarism-detector/tests/integration/api.test.js:78:37)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+    </testcase>
+    <testcase classname="Plagiarism API Integration Tests POST /api/plagiarism/bulk-check should handle empty array" name="Plagiarism API Integration Tests POST /api/plagiarism/bulk-check should handle empty array" time="0.002">
+    </testcase>
+  </testsuite>
+</testsuites>

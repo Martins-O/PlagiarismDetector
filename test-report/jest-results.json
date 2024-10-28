@@ -1,0 +1,612 @@
+{
+  "numFailedTestSuites": 2,
+  "numFailedTests": 4,
+  "numPassedTestSuites": 3,
+  "numPassedTests": 21,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 5,
+  "numTotalTests": 25,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1730098333969,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 9,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1730098334309,
+        "runtime": 219,
+        "slow": false,
+        "start": 1730098334090
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/mac/WebstormProjects/plagiarism-detector/tests/unit/services/TextService.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "TextService",
+            "calculateSimilarity"
+          ],
+          "duration": 3,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "TextService calculateSimilarity should return 100 for identical texts",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return 100 for identical texts"
+        },
+        {
+          "ancestorTitles": [
+            "TextService",
+            "calculateSimilarity"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "TextService calculateSimilarity should return low similarity for different texts",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return low similarity for different texts"
+        },
+        {
+          "ancestorTitles": [
+            "TextService",
+            "validateText"
+          ],
+          "duration": 6,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "TextService validateText should throw error for empty text",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should throw error for empty text"
+        },
+        {
+          "ancestorTitles": [
+            "TextService",
+            "validateText"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "TextService validateText should throw error for text below minimum length",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should throw error for text below minimum length"
+        },
+        {
+          "ancestorTitles": [
+            "TextService",
+            "validateText"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "TextService validateText should return true for valid text",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return true for valid text"
+        },
+        {
+          "ancestorTitles": [
+            "TextService",
+            "TextService edge cases"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "TextService TextService edge cases should handle texts with special characters",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should handle texts with special characters"
+        },
+        {
+          "ancestorTitles": [
+            "TextService",
+            "TextService edge cases"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "TextService TextService edge cases should handle texts with different case",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should handle texts with different case"
+        },
+        {
+          "ancestorTitles": [
+            "TextService",
+            "TextService edge cases"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "TextService TextService edge cases should handle texts with extra whitespace",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should handle texts with extra whitespace"
+        },
+        {
+          "ancestorTitles": [
+            "TextService",
+            "TextService edge cases"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "TextService TextService edge cases should handle non-ASCII characters",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should handle non-ASCII characters"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 4,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1730098334348,
+        "runtime": 256,
+        "slow": false,
+        "start": 1730098334092
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/mac/WebstormProjects/plagiarism-detector/tests/unit/controllers/PlagiarismController.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "PlagiarismController",
+            "detectPlagiarism"
+          ],
+          "duration": 4,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "PlagiarismController detectPlagiarism should detect plagiarism successfully",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 3,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should detect plagiarism successfully"
+        },
+        {
+          "ancestorTitles": [
+            "PlagiarismController",
+            "detectPlagiarism"
+          ],
+          "duration": 8,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "PlagiarismController detectPlagiarism should handle validation errors",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should handle validation errors"
+        },
+        {
+          "ancestorTitles": [
+            "PlagiarismController",
+            "setSimilarityThreshold"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "PlagiarismController setSimilarityThreshold should set valid threshold",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should set valid threshold"
+        },
+        {
+          "ancestorTitles": [
+            "PlagiarismController",
+            "setSimilarityThreshold"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "PlagiarismController setSimilarityThreshold should reject invalid threshold",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should reject invalid threshold"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1730098334408,
+        "runtime": 82,
+        "slow": false,
+        "start": 1730098334326
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/mac/WebstormProjects/plagiarism-detector/tests/unit/services/SearchService.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "SearchService",
+            "searchWeb"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "SearchService searchWeb should return search results",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return search results"
+        },
+        {
+          "ancestorTitles": [
+            "SearchService",
+            "searchWeb"
+          ],
+          "duration": 3,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "SearchService searchWeb should handle API errors",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should handle API errors"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 1,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1730098334422,
+        "runtime": 330,
+        "slow": false,
+        "start": 1730098334092
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/mac/WebstormProjects/plagiarism-detector/tests/performance/loadTest.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Performance Tests"
+          ],
+          "duration": 16,
+          "failureDetails": [
+            {}
+          ],
+          "failureMessages": [
+            "Error: Text must be at least 50 characters long\n    at TextService.validateText (/Users/mac/WebstormProjects/plagiarism-detector/src/services/textService.js:67:19)\n    at PlagiarismController.validateText [as detectPlagiarism] (/Users/mac/WebstormProjects/plagiarism-detector/src/controller/plagiarismController.js:17:30)\n    at detectPlagiarism (/Users/mac/WebstormProjects/plagiarism-detector/tests/performance/loadTest.test.js:7:24)\n    at Array.map (<anonymous>)\n    at Object.map (/Users/mac/WebstormProjects/plagiarism-detector/tests/performance/loadTest.test.js:6:43)\n    at Promise.then.completed (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-circus/build/run.js:316:40)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at _runTest (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)\n    at jestAdapter (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/Users/mac/WebstormProjects/plagiarism-detector/node_modules/jest-runner/build/testWorker.js:106:12)"
+          ],
+          "fullName": "Performance Tests should handle concurrent requests",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should handle concurrent requests"
+        },
+        {
+          "ancestorTitles": [
+            "Performance Tests"
+          ],
+          "duration": 57,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Performance Tests should process large text within timeout",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should process large text within timeout"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mPerformance Tests › should handle concurrent requests\u001b[39m\u001b[22m\n\n    Text must be at least 50 characters long\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 65 |\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 66 |\u001b[39m         \u001b[36mif\u001b[39m (text\u001b[33m.\u001b[39mlength \u001b[33m<\u001b[39m \u001b[33mMIN_TEXT_LENGTH\u001b[39m) {\u001b[22m\n\u001b[2m    \u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 67 |\u001b[39m             \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m`Text must be at least ${MIN_TEXT_LENGTH} characters long`\u001b[39m)\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m    |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 68 |\u001b[39m         }\u001b[22m\n\u001b[2m     \u001b[90m 69 |\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 70 |\u001b[39m         \u001b[36mreturn\u001b[39m \u001b[36mtrue\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat TextService.validateText (\u001b[22m\u001b[2msrc/services/textService.js\u001b[2m:67:19)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat PlagiarismController.validateText [as detectPlagiarism] (\u001b[22m\u001b[2msrc/controller/plagiarismController.js\u001b[2m:17:30)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat detectPlagiarism (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/performance/loadTest.test.js\u001b[39m\u001b[0m\u001b[2m:7:24)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m          at Array.map (<anonymous>)\u001b[22m\n\u001b[2m      \u001b[2mat Object.map (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/performance/loadTest.test.js\u001b[39m\u001b[0m\u001b[2m:6:43)\u001b[22m\u001b[2m\u001b[22m\n"
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 3,
+      "numPassingTests": 5,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1730098335528,
+        "runtime": 1437,
+        "slow": false,
+        "start": 1730098334091
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/mac/WebstormProjects/plagiarism-detector/tests/integration/api.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Plagiarism API Integration Tests",
+            "POST /api/plagiarism/check"
+          ],
+          "duration": 28,
+          "failureDetails": [
+            {
+              "matcherResult": {
+                "actual": 500,
+                "expected": 200,
+                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m500\u001b[39m",
+                "name": "toBe",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m500\u001b[39m\n    at Object.toBe (/Users/mac/WebstormProjects/plagiarism-detector/tests/integration/api.test.js:13:37)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+          ],
+          "fullName": "Plagiarism API Integration Tests POST /api/plagiarism/check should check text for plagiarism",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should check text for plagiarism"
+        },
+        {
+          "ancestorTitles": [
+            "Plagiarism API Integration Tests",
+            "POST /api/plagiarism/check"
+          ],
+          "duration": 3,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Plagiarism API Integration Tests POST /api/plagiarism/check should handle empty text",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should handle empty text"
+        },
+        {
+          "ancestorTitles": [
+            "Plagiarism API Integration Tests",
+            "POST /api/plagiarism/check"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Plagiarism API Integration Tests POST /api/plagiarism/check should handle missing text",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should handle missing text"
+        },
+        {
+          "ancestorTitles": [
+            "Plagiarism API Integration Tests",
+            "POST /api/plagiarism/check"
+          ],
+          "duration": 967,
+          "failureDetails": [
+            {
+              "matcherResult": {
+                "actual": 500,
+                "expected": 200,
+                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m500\u001b[39m",
+                "name": "toBe",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m500\u001b[39m\n    at Object.toBe (/Users/mac/WebstormProjects/plagiarism-detector/tests/integration/api.test.js:44:37)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+          ],
+          "fullName": "Plagiarism API Integration Tests POST /api/plagiarism/check should handle large texts",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should handle large texts"
+        },
+        {
+          "ancestorTitles": [
+            "Plagiarism API Integration Tests",
+            "POST /api/plagiarism/threshold"
+          ],
+          "duration": 3,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Plagiarism API Integration Tests POST /api/plagiarism/threshold should update similarity threshold",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should update similarity threshold"
+        },
+        {
+          "ancestorTitles": [
+            "Plagiarism API Integration Tests",
+            "POST /api/plagiarism/threshold"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Plagiarism API Integration Tests POST /api/plagiarism/threshold should reject invalid threshold values",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should reject invalid threshold values"
+        },
+        {
+          "ancestorTitles": [
+            "Plagiarism API Integration Tests",
+            "POST /api/plagiarism/bulk-check"
+          ],
+          "duration": 3,
+          "failureDetails": [
+            {
+              "matcherResult": {
+                "actual": 500,
+                "expected": 200,
+                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m500\u001b[39m",
+                "name": "toBe",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m500\u001b[39m\n    at Object.toBe (/Users/mac/WebstormProjects/plagiarism-detector/tests/integration/api.test.js:78:37)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+          ],
+          "fullName": "Plagiarism API Integration Tests POST /api/plagiarism/bulk-check should handle multiple texts",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should handle multiple texts"
+        },
+        {
+          "ancestorTitles": [
+            "Plagiarism API Integration Tests",
+            "POST /api/plagiarism/bulk-check"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Plagiarism API Integration Tests POST /api/plagiarism/bulk-check should handle empty array",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should handle empty array"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mPlagiarism API Integration Tests › POST /api/plagiarism/check › should check text for plagiarism\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m200\u001b[39m\n    Received: \u001b[31m500\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 11 |\u001b[39m                 })\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 12 |\u001b[39m\u001b[22m\n\u001b[2m    \u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 13 |\u001b[39m             expect(response\u001b[33m.\u001b[39mstatus)\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m    |\u001b[39m                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 14 |\u001b[39m             expect(response\u001b[33m.\u001b[39mbody)\u001b[33m.\u001b[39mtoHaveProperty(\u001b[32m'totalMatches'\u001b[39m)\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 15 |\u001b[39m             expect(response\u001b[33m.\u001b[39mbody)\u001b[33m.\u001b[39mtoHaveProperty(\u001b[32m'matches'\u001b[39m)\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 16 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.toBe (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/integration/api.test.js\u001b[39m\u001b[0m\u001b[2m:13:37)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mPlagiarism API Integration Tests › POST /api/plagiarism/check › should handle large texts\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m200\u001b[39m\n    Received: \u001b[31m500\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 42 |\u001b[39m                 \u001b[33m.\u001b[39msend({ text\u001b[33m:\u001b[39m largeText })\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 43 |\u001b[39m\u001b[22m\n\u001b[2m    \u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 44 |\u001b[39m             expect(response\u001b[33m.\u001b[39mstatus)\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m    |\u001b[39m                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 45 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 46 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 47 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.toBe (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/integration/api.test.js\u001b[39m\u001b[0m\u001b[2m:44:37)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mPlagiarism API Integration Tests › POST /api/plagiarism/bulk-check › should handle multiple texts\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m200\u001b[39m\n    Received: \u001b[31m500\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 76 |\u001b[39m                 })\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 77 |\u001b[39m\u001b[22m\n\u001b[2m    \u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 78 |\u001b[39m             expect(response\u001b[33m.\u001b[39mstatus)\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m    |\u001b[39m                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 79 |\u001b[39m             expect(\u001b[33mArray\u001b[39m\u001b[33m.\u001b[39misArray(response\u001b[33m.\u001b[39mbody))\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 80 |\u001b[39m             expect(response\u001b[33m.\u001b[39mbody\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBe(\u001b[35m2\u001b[39m)\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 81 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.toBe (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/integration/api.test.js\u001b[39m\u001b[0m\u001b[2m:78:37)\u001b[22m\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "wasInterrupted": false
+}
