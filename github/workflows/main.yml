@@ -2,9 +2,9 @@ name: Plagiarism Detector CI
 
 on:
   push:
-    branches: [ main, dev ]
+    branches: [ indev ]
   pull_request:
-    branches: [ main, dev ]
+    branches: [ indev ]
 
 jobs:
   test:
